@@ -26,7 +26,7 @@ console.log(bday);
 
 // ** if/else statemaents
 
-/* var name = 'Emerson';
+var name = 'Emerson';
 var age = 26;
 var isMarried = "yes";
 
@@ -44,7 +44,7 @@ if (isMarried) {
 } else {
   console.log('NO');
 }
-*/
+
 
 
 

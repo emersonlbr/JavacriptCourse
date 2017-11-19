@@ -1,10 +1,14 @@
 * {
   margin: auto 20;
   color: red;
-  background-color: black;
+  background-color: #222;
 }
 
 h1 {
   font-weight: 100;
   font-family: sans-serif;
+}
+
+p {
+  color: white;
 }
