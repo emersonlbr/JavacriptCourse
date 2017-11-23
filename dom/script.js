@@ -3,6 +3,8 @@ console.log('hello world!');
 var home = document.querySelector('.home');
 var btn = document.querySelector('.btn');
 var h2 = document.querySelector('h2');
+var h3 = document.querySelector('h3');
+
 
 home.onmouseover = function() {
   // you have to use camel case cause js doesn't accept dashes
@@ -32,9 +34,26 @@ btn.onclick = function() {
     // console.log(emerson.notes[i]);
 };
 
+
 document.querySelector('h3').addEventListener('mouseover', function () {
-  this.style.backgroundColor = 'green';
-  console.log('we just changed the h3\'s color');
+  // you can use remove add or toggle
+  this.classList.toggle('big')
+  console.log('h3');
 });
+
+var tot = document.querySelector('.tot');
+
+var total;
+
+var but = document.querySelector('.but').addEventListener('click', function(){
+
+  var input = document.querySelector('.hours').value;
+  var price = document.querySelector('.price').value;
+  total = parseInt(price) * parseInt(input);
+  tot.innerHTML = '<p> Total is : </p>' + total;
+
+});
+
+
 
 

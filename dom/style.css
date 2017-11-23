@@ -6,3 +6,9 @@ html {
 .home {
   background-color: green;
 }
+
+.big {
+  color: rgb(94, 32, 50);
+  font-family: sans-serif;
+  font-weight: 100;
+}
