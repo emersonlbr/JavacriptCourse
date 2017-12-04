@@ -10,7 +10,7 @@ home.onmouseover = function() {
   // you have to use camel case cause js doesn't accept dashes
   this.style.backgroundColor = 'red';
   console.log('we just changed the home\'s color');
-}
+};
 
 var emerson = {
   color: 'red',
@@ -37,7 +37,7 @@ btn.onclick = function() {
 
 document.querySelector('h3').addEventListener('mouseover', function () {
   // you can use remove add or toggle
-  this.classList.toggle('big')
+  this.classList.toggle('big');
   console.log('h3');
 });
 
@@ -52,8 +52,4 @@ var but = document.querySelector('.but').addEventListener('click', function(){
   total = parseInt(price) * parseInt(input);
   tot.innerHTML = '<p> Total is : </p>' + total;
 
-});
-
-
-
-
+})

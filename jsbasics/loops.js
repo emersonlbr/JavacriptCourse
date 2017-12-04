@@ -29,7 +29,7 @@ var names = [
 var i = 0;
 while (i < names.length) {
   console.log(names[i]);
-  i++
+  i++;
 };
 
 for (var i = 1; i <= 5; i++) {
@@ -48,6 +48,6 @@ for (var i = 1; i <= 5; i++) {
     continue;
   }
   console.log(i);
-  
+
 };
 
