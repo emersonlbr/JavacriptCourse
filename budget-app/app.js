@@ -481,3 +481,4 @@ var controller = (function(budgetCtrl, UICtrl){
 
 //starting the app
 controller.init();
+
